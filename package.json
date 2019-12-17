@@ -1,0 +1,17 @@
+{
+  "name": "cpuloadanddiskspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "devstart": "nodemon ./app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cpu-load": "^1.0.0",
+    "df": "^1.1.1",
+    "nodemon": "^1.18.4"
+  }
+}
